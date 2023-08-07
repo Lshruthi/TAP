@@ -20,6 +20,7 @@ public class Fraction {
         int n1 = sc.nextInt();
         System.out.print("Enter n2 Value : ");
         int n2 = sc.nextInt();
+        sc.close();
         int gcd = findGCD(n1, n2);
         System.out.println("GCD : "+gcd);
         System.out.println("Fraction : "+n1 / gcd + "/" + n2 / gcd);
